@@ -1,33 +1,28 @@
-# .
+# Vue 3 Folder Tree Modal
 
-This template should help get you started developing with Vue 3 in Vite.
+## Краткое описание проекта
 
-## Recommended IDE Setup
+Этот проект представляет собой веб-приложение на Vue 3 с использованием Composition API и TypeScript. Он реализует модальное окно с деревом папок, которое позволяет пользователю раскрывать и выбирать папки. В приложении используется статические данные для отображения дерева папок, реализована возможность выбора только одной папки одновременно. Также присутствует кнопка для закрытия модального окна и передачи идентификатора выбранной папки через кастомное событие.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Инструкция по запуску
 
-## Type Support for `.vue` Imports in TS
+### 1. Клонируйте репозиторий:
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+```bash
+git clone https://github.com/sendemy/folders-modal-vue.git
+cd ./path-to/the-project/folders-modal-vue
+```
 
-## Customize configuration
+### 2. Установите зависимости:
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### 3. Запустите приложение в режиме разработки:
 
-```sh
+```bash
+npm run serve
+# или
 npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
 ```
